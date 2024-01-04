@@ -24,9 +24,15 @@ public class CollisionAvecLeMonstre : MonoBehaviour
 
      void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Collision entre bonbon et monstre");
-        Destroy(m_gameObject);
-        m_text.SetActive(true);
+        if (collision.CompareTag("Bonbon")) 
+        
+        {
+            Debug.Log("Collision entre bonbon et monstre");
+            Destroy(m_gameObject);
+            m_text.SetActive(true);
+
+        }
+
 
     }
 

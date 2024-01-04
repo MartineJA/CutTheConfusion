@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35f41bef2f2d93d41b59abbebc28bf3d, type: 3}
   m_Name: Star
   m_EditorClassIdentifier: 
-  scoreEtoile: 0
+  scoreEtoile: 2

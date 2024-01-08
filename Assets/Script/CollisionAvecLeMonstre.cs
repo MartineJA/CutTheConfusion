@@ -30,6 +30,7 @@ public class CollisionAvecLeMonstre : MonoBehaviour
             Debug.Log("Collision entre bonbon et monstre");
             Destroy(m_gameObject);
             m_text.SetActive(true);
+            Time.timeScale = 0f;
 
         }
 

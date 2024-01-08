@@ -9,9 +9,13 @@ public class CollisionEtoilee : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject);
-        etoile.scoreEtoile += 1;
-        etoileImage.SetActive(true);
+        if (collision.CompareTag("Bonbon"))
+        {
+            Destroy(gameObject);
+            etoile.scoreEtoile += 1;
+            etoileImage.SetActive(true);
+        }
+
     }
 
 }

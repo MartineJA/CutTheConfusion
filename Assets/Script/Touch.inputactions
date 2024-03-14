@@ -1,0 +1,45 @@
+{
+    "name": "Touch",
+    "maps": [
+        {
+            "name": "Touch to Cut",
+            "id": "f66c6960-b425-44f6-83b7-fae056353dfe",
+            "actions": [
+                {
+                    "name": "Cut",
+                    "type": "Button",
+                    "id": "9c87a299-ac67-4fbc-977d-1d74486a0bc2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4154a7f3-4c06-4bde-af67-ebcee022182a",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "44dba9c3-29ef-4f64-8869-a6e0cc60f801",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
